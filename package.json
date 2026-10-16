@@ -1,0 +1,13 @@
+{
+  "name": "motionroom",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Motionroom Animation Studio - dependency-free static web app",
+  "scripts": {
+    "start": "node start.cjs",
+    "dev": "node start.cjs",
+    "build": "node -e \"require('fs').accessSync('dist/index.html');console.log('Static app ready in dist/')\"",
+    "test": "node tests/editor-regression.cjs"
+  },
+  "engines": { "node": ">=18" }
+}
